@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700,800,900|Barlow:300,400,500,600,700,800,900&display=swap");
+
+//Root Variables-$
+$primary-bg-color:rgb(105, 86, 129);
+$secondary-bg-color: #5c4674;
+$secondary-color:#fa8989;
+$primary-font-01: "Barlow",sans-serif;
+$primary-font-02: "Barlow Condensed",sans-serif;
+
+//Universal styling
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button,
+a,
+i,
+input,
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+body
+{
+    background:$primary-bg-color;
+    font-family: $primary-font-01;
+}
+
+//Components Based
+
+//NavBar component
+nav
+{
+    .menu
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 5%;
+        letter-spacing: 2px;
+        opacity: 0.7;
+
+        .logo
+        {
+            background-color: white;
+            color: $primary-bg-color;
+            padding: 0.5%;
+            border-radius: 2px;
+            font-size: 1.15em;
+            font-weight: 500;
+        }
+
+        .menu-items
+        {
+            color: white;
+
+            .link
+            {
+                margin-right: 30px;
+            }
+        }
+    }
+
+}
+//Profile Component
+.profile-container
+{
+    background-image: url("https://live.staticflickr.com/8105/8652674122_a469e97354_h.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25em 0;
+    
+    h1
+    {
+        letter-spacing: 4px;
+        background-color: white;
+        color: $secondary-bg-color;
+        opacity: 0.7;
+        padding: 0.2em 0.6em;
+        border-radius: 3px;
+    }
+
+}
+
+.about-container
+{
+    padding: 2em;
+}
