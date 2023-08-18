@@ -3,7 +3,6 @@ import { faC } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function miniCards()
 {
-    const images:string[] = ['js','c','react','docker','java']
     return(
     <div className="mini-cards-container">
     <div className="mini-cards">
