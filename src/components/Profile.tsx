@@ -4,7 +4,7 @@ function Profile()
     return(<>
         <div className="profile-container">
             <div className="profile">
-                <h1>NITHIN V</h1>
+                <h1>WELCOME</h1>
             </div>
         </div>
     </>)
