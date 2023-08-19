@@ -8,7 +8,7 @@ function NavBar()
         <div className="menu-items">
             <a href="#about" className="link">ABOUT</a>
             <a href="#projects" className="link">PROJECTS</a>
-            <a href="#" className="link">CONTACTS</a>
+            <a href="#footer" className="link">CONTACTS</a>
         </div>
         </div>
         </nav>

@@ -46,7 +46,7 @@ body
 
 .card
 {   
-    margin: 2em 0;
+    margin: 2em 2em;
     color: rgb(100, 100, 100);
     min-height: auto;
     max-width: 100%;
@@ -54,7 +54,7 @@ body
     background-attachment: fixed;
     box-shadow: 10px 10px $secondary-color;
     padding: 1em;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 //Components Based
 
@@ -269,9 +269,10 @@ nav
     
     .n2r-card
     {
-        position: sticky;
+        display: flex;
+        flex-direction: column;
         font-variant: small-caps;
-        min-width: 50em;
+        width:60em;
 
         & > img
         {
@@ -281,9 +282,10 @@ nav
     }
     .pfa-card
     {
-        position: sticky;
+        display: flex;
+        flex-direction: column;
         font-variant: small-caps;
-        min-width: 50em;
+        width: 60em;
 
         & > img
         {
@@ -296,4 +298,68 @@ nav
         font-size: 1.2em;
         margin:5px;
     }
+}
+
+//Footer Componenet
+footer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    .contact-container
+    {
+        display: flex;
+        width: 100%;
+    }
+    input,textarea
+    {
+        background-color: $primary-color;
+        border:none;
+        border-bottom: 3px solid $secondary-color;
+    }
+
+    .section-container
+    {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        .location,.email,.call
+        {
+            display: flex;
+            flex-direction: column;
+            font-variant: small-caps;
+            font-size: 1.2em;
+            align-items: center;
+            padding: 2em;
+        }
+    }
+
+    .row
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .social
+        {
+            display: flex;
+            justify-content: space-around;
+            gap: 1em;
+            padding-right: 2em;
+        }
+        .copyright
+        {
+            padding-left: 2em;
+        }
+    }
+
+}
+#go-top
+{
+    background-color: #886AEA;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
 }
