@@ -6,8 +6,8 @@ function NavBar()
         <div className="menu">
             <p className="logo">PORTFOLIO</p>
         <div className="menu-items">
-            <a href="#" className="link">ABOUT</a>
-            <a href="#" className="link">PROJECTS</a>
+            <a href="#about" className="link">ABOUT</a>
+            <a href="#projects" className="link">PROJECTS</a>
             <a href="#" className="link">CONTACTS</a>
         </div>
         </div>

@@ -30,7 +30,7 @@ function miniCards()
         <p>Github</p>
     </div>
     <div className="mini-cards">
-        <FontAwesomeIcon icon={faSass} style={{color: "#fffff"}} />
+        <FontAwesomeIcon icon={faSass} style={{color: "#ce6b9c"}} />
         <p>SCSS</p>
     </div>
     </div>);
