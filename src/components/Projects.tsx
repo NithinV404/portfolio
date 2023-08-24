@@ -7,7 +7,7 @@ function Projects()
 {
     return(<div className="projects-container" id="projects">
     <h2>Projects</h2>
-    <div className="card n2r-card">
+    <a href="https://github.com/NithinV404/N2R-Technologies"><div className="card n2r-card">
         <img src={n2r} alt="img" />
         <h2>N2R Technologies</h2>
         <p>A E-Commerce Website to facilitate services to customers to buy hardware products.</p>
@@ -18,8 +18,8 @@ function Projects()
         <FontAwesomeIcon icon={faHtml5}/>
         <FontAwesomeIcon icon={faCss3}/>
         </p>
-    </div>
-    <div className="card pfa-card">
+    </div></a>
+    <a href="https://github.com/NithinV404/Peopleforanimals"><div className="card pfa-card">
         <img src={pfa} alt="img" />
         <h2>People for Animals</h2>
         <p>A animal shelter website designed to maintain a steady database and to book tickets for tour of the facility.</p>
@@ -30,7 +30,7 @@ function Projects()
         <FontAwesomeIcon icon={faHtml5}/>
         <FontAwesomeIcon icon={faCss3}/>
         </p>
-    </div>
+    </div></a>
     </div>);
 }
 export default Projects;

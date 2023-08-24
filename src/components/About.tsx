@@ -21,13 +21,13 @@ function About() {
                                 <feMergeNode in="shadowMatrixInner1"></feMergeNode></feMerge></filter></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Artboard-1" fill="#8B65E4"><path d="M187.785156,200 L180,232 L66,232 L58.2148437,200 L187.785156,200 Z" id="Rectangle-1" filter="url(#filter-1)"></path><path d="M349.760339,49.1234675 L375.905579,277.733833 L199.999999,277.733834 L43.9648432,143.710938 L349.760339,49.1234675 Z" id="Triangle-1" filter="url(#filter-1)"></path>
                                     <path d="M399.8936,96.1889997 L29.4623426,250.140552 L0,36.4302476 L399.8936,96.1889997 Z" id="Triangle-2" filter="url(#filter-1)"></path></g></g></svg>
                 <div className="details-container">
-                    <h1>Hey! <br /> I'm Nithin V,</h1>
+                    <h1>Hey! <br /><span className="gradient"> I'm Nithin V, </span></h1>
                     <p>Developer/Student</p>
                 </div>
                 <div className="icons-container">
-                    <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-                    <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href=""><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="https://twitter.com/nithin_v_"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a href="https://linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://github.com/NithinV404"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
             </div>
             <div className="tech_stack card">

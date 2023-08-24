@@ -30,6 +30,9 @@ function Footer()
 					<span> <a href="http://www.styleshout.com/"></a></span>
 				</div>
 			</div>
+            <div id="go-top">
+				<a className="smoothscroll" title="Back to Top" href="#top"><FontAwesomeIcon icon={faLongArrowUp}/></a>
+			</div>
 			<div className="col-six tab-full pull-right social">
 					<a href=""><FontAwesomeIcon icon={faTwitter} /></a>
                     <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
@@ -37,9 +40,6 @@ function Footer()
 			</div>
 			
 		</div>
-			<div id="go-top">
-				<a className="smoothscroll" title="Back to Top" href="#top"><FontAwesomeIcon icon={faLongArrowUp}/></a>
-			</div>
 	</footer>
     </>
 );
