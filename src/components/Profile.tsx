@@ -1,4 +1,5 @@
 import '../App.scss'
+
 function Profile()
 {
     return(<>
